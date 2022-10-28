@@ -36,7 +36,7 @@ export default function Folder({ data, parentChecked = false, depth = 1 }) {
     } else if (!checked && hierarcy.includes(data.name)) {
       setHierarcy((prev) => prev.filter((item) => item !== data.name));
     }
-  }, [checked, setHierarcy]);
+  }, [checked, data.name, hierarcy, setHierarcy]);
 
   return (
     <div className="flex items-start overflow-hidden">
