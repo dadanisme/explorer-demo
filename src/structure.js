@@ -41,7 +41,16 @@ const structure = [
   },
   {
     name: "root2",
-    children: [],
+    children: [
+      {
+        name: "cucu1",
+        children: [],
+      },
+      {
+        name: "cucu2",
+        children: [],
+      },
+    ],
   },
 ];
 
